@@ -4,5 +4,5 @@ theme: readthedocs
 
 nav:
 - Home: 'index.md'
-- LoadStructures:
+- Load Structures:
     - N1-LoadMolecules: 'LoadStructures/N1.md'
