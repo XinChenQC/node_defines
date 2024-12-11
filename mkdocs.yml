@@ -1,4 +1,9 @@
 site_name: Nodes-define
-nav:
-  - Home: index.md
+
 theme: readthedocs
+
+plugins:
+  - search
+  - include_dir_to_nav:
+    sort_file: true
+    sort_directory: true
