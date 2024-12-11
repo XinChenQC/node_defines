@@ -1,1 +1,4 @@
-site_name: Marshmallow Generator
+site_name: Nodes-define
+nav:
+  - Home: index.md
+theme: readthedocs
