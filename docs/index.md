@@ -4,7 +4,7 @@ This document provides the manual of different nodes in Product ChemOrchestra™
 
 ## Workflow
 
-![](D:\work\ChemFlow\node_defines\docs\images\Index_flow.png)
+![](img\Index_flow.png)
 
 ## Nodes
 
