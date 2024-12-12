@@ -6,3 +6,6 @@ nav:
 - Home: 'index.md'
 - Load Structures:
     - N1-LoadMolecules: 'LoadStructures/N1.md'
+- Compute: 
+    - Geometry Optimization: 'Compute/N101.md'
+    - Complex Search: 'Compute/N103.md'
