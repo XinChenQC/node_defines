@@ -1,15 +1,29 @@
-# Define of Nodes
+# Definition of Nodes
 
-This document provides the manual of different nodes in Product ChemOrchestra™. Node performs specific functions in the computational flows. 
+This document serves as the manual for various nodes in **Product ChemOrchestra™**. Each node performs specific functions within the computational workflows.
 
-## Workflow
+## Workflow Overview
 
 ![Screenshot](./img/Index_flow.png)
 
 ## Nodes
 
+[Details to be added]
+
 ## Edges
 
-## General rules
+[Details to be added]
 
-- For **geometry optimization** and **MD simulation**. All results packed in a list. First one should always be the final structure. And the second one should always be the trajectory. If size of trajectory large than 100 MB, the second should also be the final structure. 
+## General Rules
+
+- For **geometry optimization** and **MD simulation**:
+  - All results should be packaged in a list.
+  - The first item in the list must always be the final structure.
+  - The second item in the list must always be the trajectory. If the trajectory size exceeds 100 MB, the second item should also be the final structure.
+
+- Front-end and back-end components are linked using a RESTful API.
+
+- The back-end must:
+  1. Have one-to-one corresponding node definitions. [**To Do**]
+  2. Include validation functions to ensure workflows can execute properly and return the required resources. [**To Do**]
+
