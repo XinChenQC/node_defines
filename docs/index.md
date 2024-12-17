@@ -16,17 +16,17 @@ This document serves as the manual for various nodes in **Product ChemOrchestraâ
 
 ## General Rules
 
-- For **geometry optimization** and **MD simulation**:
-  
-  1. All results should be packaged in a list.
-  2. The first item in the list must always be the final structure.
-  3. The second item in the list must always be the trajectory. If the trajectory size exceeds 100 MB, the second item should also be the final structure.
+For **geometry optimization** and **MD simulation**:
 
-- Front-end and back-end components are linked using a RESTful API.
+- All results should be packaged in a list.
+- The first item in the list must always be the final structure.
+- The second item in the list must always be the trajectory. If the trajectory size exceeds 100 MB, the second item should also be the final structure.
 
-- The back-end must:
-  
-  1. Have one-to-one corresponding node definitions. [**To Do**]
-  2. Include validation functions to ensure workflows can execute properly and return the required resources. [**To Do**]
+Front-end and back-end components are linked using a RESTful API.
+
+The back-end must:
+
+- Have one-to-one corresponding node definitions. [**To Do**]
+- Include validation functions to ensure workflows can execute properly and return the required resources. [**To Do**]
 
 
