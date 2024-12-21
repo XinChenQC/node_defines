@@ -28,5 +28,3 @@ The back-end must:
 
 - Have one-to-one corresponding node definitions. [**To Do**]
 - Include validation functions to ensure workflows can execute properly and return the required resources. [**To Do**]
-
-
