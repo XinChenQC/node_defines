@@ -38,3 +38,5 @@ The back-end must:
 - openbabel
 
 - Autodock Vina
+
+- biopandas
